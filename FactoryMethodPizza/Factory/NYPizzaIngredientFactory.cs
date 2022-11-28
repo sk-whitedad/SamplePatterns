@@ -1,25 +1,26 @@
 ﻿using FactoryMethodPizza.Ingredients;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FactoryMethodPizza.Factory
 {
-    public class NYPizzaIngredientFactory: IPizzaIngredientFactory
+    public class NYPizzaIngredientFactory : IPizzaIngredientFactory
     {
         public Dough createDough()
         {
-            return new ThinCrustDough();
+            Dough thinCrustDough = new ThinCrustDough();
+            thinCrustDough.setName("Тесто с тонкой корочкой");
+            return thinCrustDough;
         }
         public Sauce createSauce()
         {
-            return new MarinaraSauce();
+            Sauce marinaraSauce = new MarinaraSauce();
+            marinaraSauce.setName("Соус Маринара");
+            return marinaraSauce;
         }
         public Cheese createCheese()
         {
-            return new ReggianoCheese();
+            Cheese reggianoCheese = new ReggianoCheese();
+            reggianoCheese.setName("Сыр Реджано");
+            return reggianoCheese;
         }
         public Veggies[] createVeggies()
         {
@@ -32,7 +33,9 @@ namespace FactoryMethodPizza.Factory
         }
         public Clams createClam()
         {
-            return new FreshClams();
+            Clams freshClams = new FreshClams();
+            freshClams.setName("Свежие устрицы");
+            return freshClams;
         }
     }
 }

@@ -2,10 +2,15 @@
 {
     public abstract class Cheese
     {
-        public string name;
+        string name;
         public void setName(string name)
         {
             this.name = name;
         }
+        public string getName()
+        {
+            return name;
+        }
     }
+
 }

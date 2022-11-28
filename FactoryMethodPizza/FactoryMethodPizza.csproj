@@ -7,4 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Product\CHBekonPizza.cs" />
+    <Compile Remove="Product\CHHawaiianPizza.cs" />
+    <Compile Remove="Product\CHPapricaPizza.cs" />
+    <Compile Remove="Product\CHСheesePizza.cs" />
+    <Compile Remove="Product\NYBekonPizza.cs" />
+    <Compile Remove="Product\NYHawaiianPizza.cs" />
+    <Compile Remove="Product\NYPapricaPizza.cs" />
+    <Compile Remove="Product\NYСheesePizza.cs" />
+  </ItemGroup>
+
 </Project>

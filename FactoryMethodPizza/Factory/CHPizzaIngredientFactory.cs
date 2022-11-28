@@ -11,15 +11,21 @@ namespace FactoryMethodPizza.Factory
     {
         public Dough createDough()
         {
-            return new ThinCrustDough();
+            Dough thinCrustDough = new ThinCrustDough();
+            thinCrustDough.setName("Тесто с тонкой корочкой");
+            return thinCrustDough;
         }
         public Sauce createSauce()
         {
-            return new PlumTomatoSauce();
+            Sauce plumTomatoSauce = new PlumTomatoSauce();
+            plumTomatoSauce.setName("Cливовый томатный соус");
+            return plumTomatoSauce;
         }
         public Cheese createCheese()
         {
-            return new MozzarellaCheese();
+            Cheese mozzarellaCheese = new MozzarellaCheese();
+            mozzarellaCheese.setName("Сыр Моцарелла");
+            return mozzarellaCheese;
         }
         public Veggies[] createVeggies()
         {
@@ -32,7 +38,9 @@ namespace FactoryMethodPizza.Factory
         }
         public Clams createClam()
         {
-            return new FrozenClams();
+            Clams frozenClams = new FrozenClams();
+            frozenClams.setName("Замороженные устрицы");
+            return frozenClams;
         }
     }
 }
