@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethodPizza.Product
 {
-    public class СheesePizza : Pizza
+    public class NYСheesePizza : Pizza
     {
         public override void Bake()
         {
@@ -19,6 +19,7 @@
 
         public override void Prepare()
         {
+            Console.WriteLine($"Привет из Нью-Йорка!");
             Console.WriteLine($"Добавляем сыр");
         }
     }

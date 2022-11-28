@@ -2,26 +2,26 @@
 
 namespace FactoryMethodPizza.Factory
 {
-    public class NYPizzaStore: PizzaStore
+    public class CHPizzaStore: PizzaStore
     {
         public override Pizza createPizza(String item)
         {
             Pizza pizza = null;
             if (item == "C")
             {
-                pizza = new NYСheesePizza();
+                pizza = new CHСheesePizza();
             }
             else if (item == "P")
             {
-                pizza = new NYPapricaPizza();
+                pizza = new CHPapricaPizza();
             }
             else if (item == "H")
             {
-                pizza = new NYHawaiianPizza();
+                pizza = new CHHawaiianPizza();
             }
             else if (item == "B")
             {
-                pizza = new NYBekonPizza();
+                pizza = new CHBekonPizza();
             }
             return pizza;
         }
