@@ -1,6 +1,6 @@
 ﻿namespace SingletonApp
 {
-    internal class OS
+     internal class OS
     {
         private static OS instance;
 
