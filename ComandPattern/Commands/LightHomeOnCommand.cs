@@ -13,5 +13,9 @@ namespace CommandPattern.Commands
         {
             lightHome.On();
         }
+        public void undo()
+        {
+            lightHome.Off();
+        }
     }
 }

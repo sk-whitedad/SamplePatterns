@@ -2,19 +2,19 @@
 
 namespace CommandPattern.Commands
 {
-    public class FanOffCommand: Command
+    public class CeilingFanMediumCommand: Command
     {
         Fan fan;
         int prevSpeed;
 
-        public FanOffCommand(Fan fan)
+        public CeilingFanMediumCommand(Fan fan)
         {
             this.fan = fan;
         }
         public void execute()
         {
             prevSpeed = fan.getSpeed();
-            fan.off();
+            fan.medium();
         }
         public void undo()
         {

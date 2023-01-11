@@ -13,5 +13,9 @@ namespace CommandPattern.Commands
         {
             sound.Off();
         }
+        public void undo()
+        {
+            sound.On();
+        }
     }
 }
