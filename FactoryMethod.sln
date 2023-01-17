@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecorationPattern", "Decora
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "ComandPattern\CommandPattern.csproj", "{EC001FD2-D218-4FB6-8D03-6E24F0A55106}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{D7090E13-F96B-4413-BABB-49B62EA45AD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{D7090E13-F96B-4413-BABB-49B62EA45AD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{6BF36DB4-1994-4C16-8365-B1AB672F47F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{6BF36DB4-1994-4C16-8365-B1AB672F47F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesPattern", "TemplatesPattern\TemplatesPattern.csproj", "{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{6BF36DB4-1994-4C16-8365-B1AB672F47F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF36DB4-1994-4C16-8365-B1AB672F47F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF36DB4-1994-4C16-8365-B1AB672F47F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
