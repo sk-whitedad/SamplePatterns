@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{6BF36DB4-1994-4C16-8365-B1AB672F47F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatesPattern", "TemplatesPattern\TemplatesPattern.csproj", "{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TemplatesPattern", "TemplatesPattern\TemplatesPattern.csproj", "{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{A4DC30D9-D8CB-4011-8201-6AA869911C32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAB4F6FD-D3B2-4CBB-9855-80012EC053B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4DC30D9-D8CB-4011-8201-6AA869911C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4DC30D9-D8CB-4011-8201-6AA869911C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4DC30D9-D8CB-4011-8201-6AA869911C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4DC30D9-D8CB-4011-8201-6AA869911C32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
